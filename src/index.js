@@ -1,3 +1,11 @@
+// React Steps:
+
+// 1-> Import React and ReactDOM libraries
+// 2-> Get a reference to the div with ID root
+// 3-> Tell React to take control of that element
+// 4-> Create a Component
+// 5-> Show the Component on screen
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
