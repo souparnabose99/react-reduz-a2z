@@ -11,12 +11,20 @@ const App = () => {
 
       <div className='container'>
         <section className='section'>
-          <div className='columns'></div>
+          <div className='columns'>
+            <div className='column is-4'>
+              <ProfileCard title='Alexa' handle='alexa@11' image={AlexaImage}/>
+            </div>
+            <div className='column is-4'>
+              <ProfileCard title='Cortana' handle='cortana@22' image={CortanaImage}/>
+            </div>
+            <div className='column is-4'>
+              <ProfileCard title='Siri' handle='siri@33' image={SiriImage}/>
+            </div>
+          </div>
         </section>
       </div>
-      <ProfileCard title='Alexa' handle='alexa@11' image={AlexaImage}/>
-      <ProfileCard title='Cortana' handle='cortana@22' image={CortanaImage}/>
-      <ProfileCard title='Siri' handle='siri@33' image={SiriImage}/>
+      
       </div>
   )
 }
